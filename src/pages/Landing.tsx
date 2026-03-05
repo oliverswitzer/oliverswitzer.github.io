@@ -85,8 +85,10 @@ export default function Landing() {
             </span>
           </Link>
 
-          <Link
-            to="/creative"
+          <a
+            href="https://www.oddlygood.studio/"
+            target="_blank"
+            rel="noreferrer"
             className="group rounded-2xl border border-line-0 bg-bg-1 p-10 text-center transition hover:border-accent"
           >
             <h2 className="font-display text-3xl tracking-tight sm:text-4xl group-hover:text-accent transition">
@@ -98,7 +100,7 @@ export default function Landing() {
             <span className="mt-6 inline-block font-mono text-sm uppercase tracking-widest text-accent">
               Explore &rarr;
             </span>
-          </Link>
+          </a>
         </div>
       </section>
 
