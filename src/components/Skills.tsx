@@ -14,19 +14,22 @@ export default function Skills() {
 
     const items = section.querySelectorAll(".skill-item");
     items.forEach((item, i) => {
-      gsap.set(item, { opacity: 0, y: 30 });
-      gsap.to(item, {
-        opacity: 1,
-        y: 0,
-        duration: 0.5,
-        delay: i * 0.1,
-        ease: "power3.out",
-        scrollTrigger: {
-          trigger: item,
-          start: "top 90%",
-          toggleActions: "play none none none"
+      gsap.fromTo(
+        item,
+        { opacity: 0, y: 30 },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 0.5,
+          delay: i * 0.1,
+          ease: "power3.out",
+          scrollTrigger: {
+            trigger: item,
+            start: "top 95%",
+            toggleActions: "play none none none",
+          },
         }
-      });
+      );
     });
 
     return () => ScrollTrigger.getAll().forEach((t) => t.kill());
