@@ -21,7 +21,6 @@ export type SiteContent = {
     location: string;
     email: string;
     intro: string;
-    vibeLine: string;
   };
   nav: string[];
   links: { label: string; href: string }[];
@@ -43,9 +42,7 @@ export const siteContent: SiteContent = {
     location: "Brooklyn, NY",
     email: "oliverswitzer@gmail.com",
     intro:
-      "I help NYC small businesses eliminate manual workflow bottlenecks with practical AI automations that save time, reduce errors, and free your team to focus on what matters.",
-    vibeLine:
-      "I also help startup teams and founders turn fast-built prototypes into stable, production-ready products."
+      "I help small to medium size businesses connect their software and automate the messy parts of running a business."
   },
   nav: ["Services", "Background", "Skills", "Contact"],
   links: [

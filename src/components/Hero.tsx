@@ -77,7 +77,7 @@ export default function Hero() {
         </p>
 
         <AnimatedText
-          text="Stop drowning in manual workflows."
+          text="Automate the busywork so you can spend more time doing what you love."
           className="font-display text-5xl leading-[1.1] tracking-tight sm:text-7xl lg:text-8xl"
           delay={0.1}
         />

@@ -90,7 +90,7 @@ export default function Landing() {
             className="group rounded-2xl border border-line-0 bg-bg-1 p-10 text-center transition hover:border-accent"
           >
             <h2 className="font-display text-3xl tracking-tight sm:text-4xl group-hover:text-accent transition">
-              Creative Tech Studio Work
+              Creative Technology & Fabrication
             </h2>
             <p className="mt-4 text-text-1 leading-relaxed">
               Interactive installations, custom fabrication, and physical experiences from Oddly Good studio.
