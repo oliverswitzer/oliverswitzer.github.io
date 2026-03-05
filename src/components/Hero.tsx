@@ -98,7 +98,7 @@ export default function Hero() {
             Book your free audit
           </a>
           <a
-            href="Oliver_Switzer_Resume_02_28_26.pdf"
+            href="assets/Oliver_Switzer_Resume_02_28_26.pdf"
             target="_blank"
             rel="noreferrer"
             className="inline-block rounded-full border border-line-0 px-8 py-4 text-base font-semibold text-text-0 transition hover:border-accent hover:text-accent"

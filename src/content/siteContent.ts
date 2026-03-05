@@ -51,7 +51,7 @@ export const siteContent: SiteContent = {
   },
   nav: ["Home", "Services", "Background", "Skills", "Contact"],
   links: [
-    { label: "Resume", href: "Oliver_Switzer_Resume_02_28_26.pdf" }
+    { label: "Resume", href: "assets/Oliver_Switzer_Resume_02_28_26.pdf" }
   ],
   offers: [
     {
@@ -223,6 +223,6 @@ export const siteContent: SiteContent = {
     primaryHref:
       "mailto:oliverswitzer@gmail.com?subject=AI%20Opportunity%20Audit",
     secondaryLabel: "Download resume",
-    secondaryHref: "Oliver_Switzer_Resume_02_28_26.pdf"
+    secondaryHref: "assets/Oliver_Switzer_Resume_02_28_26.pdf"
   }
 };
