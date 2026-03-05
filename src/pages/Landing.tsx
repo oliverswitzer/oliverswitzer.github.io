@@ -6,6 +6,7 @@ import { siteContent } from "../content/siteContent";
 export default function Landing() {
   const photoRef = useRef<HTMLDivElement>(null);
   const overlayTextRef = useRef<HTMLDivElement>(null);
+  const blurbRef = useRef<HTMLDivElement>(null);
   const ctaBlockRef = useRef<HTMLDivElement>(null);
   const resumeRef = useRef<HTMLDivElement>(null);
 
@@ -20,9 +21,13 @@ export default function Landing() {
       gsap.set(overlayTextRef.current, { opacity: 0, y: 20 });
       tl.to(overlayTextRef.current, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, "-=0.5");
     }
+    if (blurbRef.current) {
+      gsap.set(blurbRef.current, { opacity: 0, y: 20 });
+      tl.to(blurbRef.current, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, "-=0.3");
+    }
     if (ctaBlockRef.current) {
       gsap.set(ctaBlockRef.current, { opacity: 0, y: 30 });
-      tl.to(ctaBlockRef.current, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, "-=0.3");
+      tl.to(ctaBlockRef.current, { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }, "-=0.4");
     }
     if (resumeRef.current) {
       gsap.set(resumeRef.current, { opacity: 0, y: 20 });
@@ -55,6 +60,13 @@ export default function Landing() {
         </div>
       </section>
 
+      {/* Blurb */}
+      <section ref={blurbRef} className="mx-auto max-w-3xl px-4 pt-16 text-center">
+        <p className="text-lg leading-relaxed text-text-1 sm:text-xl">
+          Creative technology studio owner in Clinton Hill, Brooklyn. I design and build physical experiences, and I help small businesses automate the things that give them headaches. I'm happiest when I'm tinkering.
+        </p>
+      </section>
+
       {/* CTA Blocks */}
       <section ref={ctaBlockRef} className="mx-auto max-w-5xl px-4 py-16 sm:py-20">
         <div className="grid gap-6 sm:grid-cols-2">
@@ -63,10 +75,10 @@ export default function Landing() {
             className="group rounded-2xl border border-line-0 bg-bg-1 p-10 text-center transition hover:border-accent"
           >
             <h2 className="font-display text-3xl tracking-tight sm:text-4xl group-hover:text-accent transition">
-              AI Automations
+              Freelance Software &amp; AI
             </h2>
             <p className="mt-4 text-text-1 leading-relaxed">
-              Practical AI automations for small businesses. Eliminate manual workflow bottlenecks and save real hours.
+              Custom software, workflow automation, and AI solutions for small businesses.
             </p>
             <span className="mt-6 inline-block font-mono text-sm uppercase tracking-widest text-accent">
               Explore &rarr;
@@ -78,10 +90,10 @@ export default function Landing() {
             className="group rounded-2xl border border-line-0 bg-bg-1 p-10 text-center transition hover:border-accent"
           >
             <h2 className="font-display text-3xl tracking-tight sm:text-4xl group-hover:text-accent transition">
-              Creative Technology &amp; Fabrication
+              Creative Tech Studio Work
             </h2>
             <p className="mt-4 text-text-1 leading-relaxed">
-              Interactive installations, physical computing, and creative engineering for memorable experiences.
+              Interactive installations, custom fabrication, and physical experiences from Oddly Good studio.
             </p>
             <span className="mt-6 inline-block font-mono text-sm uppercase tracking-widest text-accent">
               Explore &rarr;
