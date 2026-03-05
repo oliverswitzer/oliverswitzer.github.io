@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+  background:
+    radial-gradient(circle at 20% 5%, rgba(54, 163, 255, 0.12), transparent 40%),
+    radial-gradient(circle at 80% 0%, rgba(48, 230, 208, 0.12), transparent 40%),
+    #080b12;
+  color: #e5edf8;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background-image: radial-gradient(rgba(139, 154, 176, 0.3) 0.65px, transparent 0.65px);
+  background-size: 18px 18px;
+  opacity: 0.32;
+}
+
+* {
+  box-sizing: border-box;
+}
