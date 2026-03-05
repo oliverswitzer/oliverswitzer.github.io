@@ -1,19 +1,16 @@
-import Nav from "./components/Nav";
-import Hero from "./components/Hero";
-import Services from "./components/Services";
-import Background from "./components/Background";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing";
+import AI from "./pages/AI";
+import Creative from "./pages/Creative";
 
 export default function App() {
   return (
-    <div className="min-h-screen bg-bg-0 text-text-0">
-      <Nav />
-      <Hero />
-      <Services />
-      <Background />
-      <Skills />
-      <Contact />
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+        <Route path="/ai" element={<AI />} />
+        <Route path="/creative" element={<Creative />} />
+      </Routes>
+    </BrowserRouter>
   );
 }

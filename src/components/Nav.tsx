@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import gsap from "gsap";
 import { siteContent } from "../content/siteContent";
 
@@ -42,6 +43,12 @@ export default function Nav() {
       style={{ transform: "translateY(-80px)", opacity: 0 }}
     >
       <nav className="flex items-center gap-1 rounded-full border border-line-0 bg-bg-1/90 px-2 py-2 text-sm font-medium backdrop-blur-md">
+        <Link
+          to="/"
+          className="rounded-full px-4 py-2 text-text-1 transition hover:text-accent"
+        >
+          Home
+        </Link>
         {siteContent.nav.map((item) => (
           <a
             key={item}

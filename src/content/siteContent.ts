@@ -33,8 +33,6 @@ export type SiteContent = {
     description: string;
     primaryLabel: string;
     primaryHref: string;
-    secondaryLabel: string;
-    secondaryHref: string;
   };
 };
 
@@ -49,9 +47,9 @@ export const siteContent: SiteContent = {
     vibeLine:
       "I also help startup teams and founders turn fast-built prototypes into stable, production-ready products."
   },
-  nav: ["Home", "Services", "Background", "Skills", "Contact"],
+  nav: ["Services", "Background", "Skills", "Contact"],
   links: [
-    { label: "Resume", href: "assets/Oliver_Switzer_Resume_02_28_26.pdf" }
+    { label: "Resume", href: "assets/oliver-resume.pdf" }
   ],
   offers: [
     {
@@ -221,8 +219,6 @@ export const siteContent: SiteContent = {
       "Find out exactly where AI can save your business time and money. Get a focused review of your workflows, what to automate first, and what to avoid.",
     primaryLabel: "Book your free audit",
     primaryHref:
-      "mailto:oliverswitzer@gmail.com?subject=AI%20Opportunity%20Audit",
-    secondaryLabel: "Download resume",
-    secondaryHref: "assets/Oliver_Switzer_Resume_02_28_26.pdf"
+      "mailto:oliverswitzer@gmail.com?subject=AI%20Opportunity%20Audit"
   }
 };
