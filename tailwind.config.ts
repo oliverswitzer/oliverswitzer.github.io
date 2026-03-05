@@ -5,22 +5,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        "bg-0": "#080b12",
-        "bg-1": "#0d111b",
-        "bg-2": "#121828",
-        "line-0": "#1f293f",
-        "text-0": "#e5edf8",
-        "text-1": "#a6b2c7",
-        accent: "#30e6d0",
-        "accent-2": "#36a3ff"
+        "bg-0": "#050505",
+        "bg-1": "#0a0a0a",
+        "bg-2": "#141414",
+        "line-0": "#2a2a2a",
+        "text-0": "#f0ede6",
+        "text-1": "#8a8478",
+        accent: "#e8a838",
+        "accent-2": "#f0c866"
       },
       boxShadow: {
         card: "0 24px 60px rgba(0, 0, 0, 0.45)",
-        glow: "0 0 0 1px rgba(48, 230, 208, 0.25), 0 0 30px rgba(48, 230, 208, 0.18)"
+        glow: "0 0 0 1px rgba(232, 168, 56, 0.2), 0 0 40px rgba(232, 168, 56, 0.08)"
       },
       fontFamily: {
-        sans: ["Space Grotesk", "sans-serif"],
-        display: ["Space Grotesk", "sans-serif"],
+        sans: ["Inter", "sans-serif"],
+        display: ["Instrument Serif", "serif"],
         mono: ["JetBrains Mono", "monospace"]
       }
     }

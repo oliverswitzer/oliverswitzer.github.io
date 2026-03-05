@@ -41,13 +41,13 @@ export type SiteContent = {
 export const siteContent: SiteContent = {
   brand: {
     name: "Oliver Switzer",
-    role: "Freelance AI Automations Engineer",
+    role: "AI Automations for Small Business",
     location: "Brooklyn, NY",
     email: "oliverswitzer@gmail.com",
     intro:
-      "I help small and medium-size businesses eliminate manual workflow bottlenecks with practical AI automations that save time, reduce errors, and improve operational throughput.",
+      "I help NYC small businesses eliminate manual workflow bottlenecks with practical AI automations that save time, reduce errors, and free your team to focus on what matters.",
     vibeLine:
-      "I also help startup teams and founders un-vibe vibe-coded apps into stable, production-ready products."
+      "I also help startup teams and founders turn fast-built prototypes into stable, production-ready products."
   },
   nav: ["Home", "Services", "Background", "Skills", "Contact"],
   links: [
@@ -55,19 +55,19 @@ export const siteContent: SiteContent = {
   ],
   offers: [
     {
-      title: "Workflow Automation Buildouts",
+      title: "Workflow Automation",
       description:
-        "Automate repetitive operations across support, finance, onboarding, reporting, and internal tools."
+        "Stop losing hours to repetitive tasks. I use visual, no-code tools wherever possible — so you can see how your automations work and adjust them yourself. When something needs custom code, I build that too."
     },
     {
-      title: "AI Readiness and Strategy Sprint",
+      title: "AI Strategy Sprint",
       description:
-        "A practical SMB-focused diagnostic to identify the highest-value AI use cases, constraints, and rollout steps."
+        "Not sure where AI fits in your business? Get a focused diagnostic that identifies your highest-value opportunities, practical constraints, and a clear rollout plan."
     },
     {
-      title: "Prototype to Production Hardening",
+      title: "Custom Solutions",
       description:
-        "Refactor and stabilize fast-built products with better architecture, testing, observability, and deployment safety."
+        "Some problems need more than off-the-shelf tools. I build custom software for the workflows that are too complex or specific for no-code — while keeping everything as simple to maintain as possible."
     }
   ],
   tabs: {
@@ -199,29 +199,29 @@ export const siteContent: SiteContent = {
   },
   skills: [
     {
-      label: "Languages",
-      items: "Elixir/OTP, TypeScript, Python, Rust, Ruby, Kotlin, Java"
+      label: "Built to last",
+      items: "Production-grade systems, not duct-taped demos. Your automation will keep running long after I hand it off."
     },
     {
-      label: "AI and Data",
-      items: "LLM orchestration, MCP, GraphRAG, semantic retrieval, Postgres"
+      label: "AI that actually works",
+      items: "Practical automation that saves real hours — not science experiments. Grounded in 12+ years of shipping software."
     },
     {
-      label: "Infrastructure",
-      items: "Docker, Kubernetes, Terraform, AWS, GCP, CI/CD"
+      label: "Works with your tools",
+      items: "Connects to the platforms your team already uses — Google Sheets, Slack, CRMs, email, and more."
     },
     {
-      label: "Delivery",
-      items: "TDD/BDD, XP, domain-driven design, pairing, agile execution"
+      label: "Predictable delivery",
+      items: "Clear timelines, regular check-ins, no surprises. You'll always know where things stand."
     }
   ],
   cta: {
-    title: "Complimentary AI Opportunity Audit for SMB teams",
+    title: "Free AI Opportunity Audit",
     description:
-      "Get a focused review of where AI can produce immediate business value, what to prioritize first, and what to avoid.",
-    primaryLabel: "Book the audit",
+      "Find out exactly where AI can save your business time and money. Get a focused review of your workflows, what to automate first, and what to avoid.",
+    primaryLabel: "Book your free audit",
     primaryHref:
-      "mailto:oliverswitzer@gmail.com?subject=Complimentary%20AI%20Opportunity%20Audit",
+      "mailto:oliverswitzer@gmail.com?subject=AI%20Opportunity%20Audit",
     secondaryLabel: "Download resume",
     secondaryHref: "Oliver_Switzer_Resume_02_28_26.pdf"
   }
