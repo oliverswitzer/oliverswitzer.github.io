@@ -19,7 +19,7 @@ const config: Config = {
         glow: "0 0 0 1px rgba(232, 168, 56, 0.2), 0 0 40px rgba(232, 168, 56, 0.08)"
       },
       fontFamily: {
-        sans: ["Inter", "sans-serif"],
+        sans: ["DM Sans", "sans-serif"],
         display: ["Instrument Serif", "serif"],
         mono: ["JetBrains Mono", "monospace"]
       }

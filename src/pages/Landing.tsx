@@ -38,7 +38,7 @@ export default function Landing() {
   return (
     <div className="min-h-screen bg-bg-0 text-text-0">
       {/* Hero photo with text overlay */}
-      <section className="mx-auto max-w-5xl px-4 pt-12 sm:pt-20">
+      <section className="mx-auto max-w-5xl px-5 sm:px-4 pt-12 sm:pt-20">
         <div ref={photoRef} className="relative overflow-hidden rounded-2xl">
           <img
             src="/assets/oliver-headshot.jpg"
@@ -50,10 +50,10 @@ export default function Landing() {
             ref={overlayTextRef}
             className="absolute left-6 top-6 sm:left-10 sm:top-10 max-w-[60%] sm:max-w-[50%]"
           >
-            <h1 className="font-display text-3xl leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-lg">
+            <h1 className="font-display text-4xl leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-lg">
               Hi, I'm Oliver.
             </h1>
-            <p className="mt-2 font-display text-xl leading-snug text-white/80 sm:text-2xl lg:text-3xl drop-shadow-md">
+            <p className="mt-2 font-display text-2xl leading-snug text-white/80 sm:text-2xl lg:text-3xl drop-shadow-md">
               I help ideas escape whiteboards.
             </p>
           </div>
@@ -61,14 +61,14 @@ export default function Landing() {
       </section>
 
       {/* Blurb */}
-      <section ref={blurbRef} className="mx-auto max-w-3xl px-4 pt-16 text-center">
+      <section ref={blurbRef} className="mx-auto max-w-3xl px-5 sm:px-4 pt-16 text-center">
         <p className="text-lg leading-relaxed text-text-1 sm:text-xl">
           Creative technology studio owner in Clinton Hill, Brooklyn. I design and build physical experiences, and I help small businesses automate the things that give them headaches. I'm happiest when I'm tinkering.
         </p>
       </section>
 
       {/* CTA Blocks */}
-      <section ref={ctaBlockRef} className="mx-auto max-w-5xl px-4 py-16 sm:py-20">
+      <section ref={ctaBlockRef} className="mx-auto max-w-5xl px-5 sm:px-4 py-16 sm:py-20">
         <div className="grid gap-6 sm:grid-cols-2">
           <Link
             to="/ai"
@@ -105,7 +105,7 @@ export default function Landing() {
       </section>
 
       {/* Resume download */}
-      <section ref={resumeRef} className="mx-auto max-w-5xl px-4 pb-24 text-center">
+      <section ref={resumeRef} className="mx-auto max-w-5xl px-5 sm:px-4 pb-24 text-center">
         <a
           href="/assets/oliver-resume.pdf"
           target="_blank"
