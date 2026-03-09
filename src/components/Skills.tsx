@@ -36,7 +36,7 @@ export default function Skills() {
   }, []);
 
   return (
-    <section id="skills" ref={sectionRef} className="px-4 py-32">
+    <section id="skills" ref={sectionRef} className="px-4 py-20">
       <div className="mx-auto max-w-5xl">
         <h2 className="font-display text-4xl tracking-tight sm:text-6xl">
           Why clients trust me
@@ -47,7 +47,7 @@ export default function Skills() {
               key={skill.label}
               className="skill-item bg-bg-1 p-8"
             >
-              <h3 className="font-mono text-xs font-semibold uppercase tracking-[0.2em] text-accent">
+              <h3 className="font-sans text-xs font-semibold uppercase tracking-[0.2em] text-accent">
                 {skill.label}
               </h3>
               <p className="mt-3 text-lg leading-relaxed text-text-0">{skill.items}</p>

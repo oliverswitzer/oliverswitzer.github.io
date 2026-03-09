@@ -54,7 +54,7 @@ export default function Contact() {
   }, []);
 
   return (
-    <section id="contact" ref={sectionRef} className="px-4 py-32">
+    <section id="contact" ref={sectionRef} className="px-4 py-20">
       <div className="mx-auto max-w-5xl rounded-2xl bg-accent/10 px-8 py-20 text-center sm:px-16">
         <h2 className="font-display text-4xl tracking-tight sm:text-6xl">
           {siteContent.cta.title}

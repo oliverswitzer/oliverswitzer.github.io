@@ -50,14 +50,14 @@ export const siteContent: SiteContent = {
   ],
   offers: [
     {
-      title: "Workflow Automation",
-      description:
-        "Stop losing hours to repetitive tasks. I use visual, no-code tools wherever possible — so you can see how your automations work and adjust them yourself. When something needs custom code, I build that too."
-    },
-    {
       title: "AI Strategy Sprint",
       description:
         "Not sure where AI fits in your business? Get a focused diagnostic that identifies your highest-value opportunities, practical constraints, and a clear rollout plan."
+    },
+    {
+      title: "Workflow Automation",
+      description:
+        "Stop losing hours to repetitive tasks. I use visual, no-code tools wherever possible — so you can see how your automations work and adjust them yourself. When something needs custom code, I build that too."
     },
     {
       title: "Custom Solutions",

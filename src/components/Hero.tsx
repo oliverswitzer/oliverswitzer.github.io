@@ -72,7 +72,7 @@ export default function Hero() {
   return (
     <section id="home" className="flex min-h-screen items-center justify-center px-4">
       <div ref={sectionRef} className="mx-auto max-w-4xl text-center">
-        <p className="mb-6 font-mono text-sm uppercase tracking-[0.2em] text-accent">
+        <p className="mb-6 font-sans text-sm uppercase tracking-[0.2em] text-accent">
           {siteContent.brand.name} &middot; {siteContent.brand.location}
         </p>
 

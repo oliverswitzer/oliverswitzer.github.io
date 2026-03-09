@@ -65,9 +65,9 @@ export default function Background() {
   };
 
   return (
-    <section id="background" className="px-4 py-32">
+    <section id="background" className="px-4 py-20">
       <div className="mx-auto max-w-5xl">
-        <p className="font-mono text-sm uppercase tracking-[0.2em] text-accent">
+        <p className="font-sans text-sm uppercase tracking-[0.2em] text-accent">
           12+ years &middot; 10+ companies &middot; Fortune 500 to small business
         </p>
         <h2 className="mt-4 font-display text-4xl tracking-tight sm:text-6xl">
@@ -99,7 +99,7 @@ export default function Background() {
             >
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <h3 className="font-display text-2xl">{item.title}</h3>
-                <p className="font-mono text-xs uppercase tracking-wider text-text-1">
+                <p className="font-sans text-xs uppercase tracking-wider text-text-1">
                   {item.dates}
                 </p>
               </div>

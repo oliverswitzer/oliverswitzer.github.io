@@ -20,8 +20,8 @@ const config: Config = {
       },
       fontFamily: {
         sans: ["DM Sans", "sans-serif"],
-        display: ["Instrument Serif", "serif"],
-        mono: ["JetBrains Mono", "monospace"]
+        display: ["Clash Display", "sans-serif"],
+        mono: ["DM Sans", "sans-serif"]
       }
     }
   },

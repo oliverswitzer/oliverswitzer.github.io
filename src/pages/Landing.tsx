@@ -50,11 +50,11 @@ export default function Landing() {
             ref={overlayTextRef}
             className="absolute left-6 top-6 sm:left-10 sm:top-10 max-w-[60%] sm:max-w-[50%]"
           >
-            <h1 className="font-display text-4xl leading-tight tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-lg">
+            <h1 className="font-display text-[2rem] leading-[1.15] tracking-tight text-white sm:text-5xl lg:text-6xl drop-shadow-lg">
               Hi, I'm Oliver.
             </h1>
-            <p className="mt-2 font-display text-2xl leading-snug text-white/80 sm:text-2xl lg:text-3xl drop-shadow-md">
-              I help ideas escape whiteboards.
+            <p className="mt-2 font-display text-lg leading-snug text-white/80 sm:text-2xl lg:text-3xl drop-shadow-md">
+              I help businesses automate the messy parts of running a business.
             </p>
           </div>
         </div>
@@ -80,7 +80,7 @@ export default function Landing() {
             <p className="mt-4 text-text-1 leading-relaxed">
               Custom software, workflow automation, and AI solutions for small businesses.
             </p>
-            <span className="mt-6 inline-block font-mono text-sm uppercase tracking-widest text-accent">
+            <span className="mt-6 inline-block font-sans text-sm uppercase tracking-widest text-accent">
               Explore &rarr;
             </span>
           </Link>
@@ -97,7 +97,7 @@ export default function Landing() {
             <p className="mt-4 text-text-1 leading-relaxed">
               Interactive installations, custom fabrication, and physical experiences from Oddly Good studio.
             </p>
-            <span className="mt-6 inline-block font-mono text-sm uppercase tracking-widest text-accent">
+            <span className="mt-6 inline-block font-sans text-sm uppercase tracking-widest text-accent">
               Explore &rarr;
             </span>
           </a>
